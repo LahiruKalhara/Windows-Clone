@@ -1,0 +1,76 @@
+*{margin: 0; padding: 0; font-family: poppins; list-style: none; text-decoration: none;}
+
+header .headerContainer{display: flex; justify-content: space-between; align-items: center; padding: 1em 1.5em;}
+header .headerContainer .logo img{height: 2em; cursor: pointer;}
+header .headerContainer ul{display: flex; gap: 3em; font-weight: 400; font-size: 0.9rem; cursor: pointer;}
+header .headerContainer ul li:hover{color: rgb(0, 68, 146);}
+header .loginSection{display: flex;}
+header .loginSection img{height: 1.5em; margin-left: 1em; cursor: pointer;}
+header .loginSection p{cursor: pointer;}
+
+.body .bluebar{width: 100%; text-align: center; background-color: rgb(0, 81, 156); color: white; padding: 0.6em 0; font-size: 0.9em}
+.body .bluebar p:hover{color: rgba(146, 215, 255, 0.63); cursor: pointer;}
+.body .heroSection{position: relative; text-align: center;}
+.body .heroSection img{width: 100%; opacity: 70%; height: 20em;}
+.body .heroSection h1{position: absolute; top: 1em; font-size: 4.5rem; font-weight: 500; width: 100%;}
+.body .heroSection .text1{position: absolute; top: 11em; font-size: 1.1em; margin: 0 11em;}
+.body .heroSection .buttons{display: flex; position: absolute; top: 18em; font-size: 1.1rem; font-weight: 500; width: 100%; justify-content: center; gap: 2em; cursor: pointer;}
+.body .heroSection .buttons a{color: white; background-color: rgb(0, 9, 90); padding: 0.5em 2em; margin-top: -0.5em; border-radius: 0.4em;  transition: 300ms ease-in-out;}
+.body .heroSection .buttons a:hover{color: rgb(0, 18, 97); background-color: white;}
+.body .heroSection .buttons .text2{color: rgb(18, 0, 121); transition: 300ms ease-in-out;}
+.body .heroSection .buttons .text2:hover{color: rgb(78, 220, 255);}
+
+.body .bodyContainer1{position: relative;}
+.body .bodyContainer1 .img2{width: 70em; position: relative; margin-top: 12em; display: block; margin-left: auto; margin-right: auto; border-radius: 0.6em;}
+.body .bodyContainer1 .img1{width: 77em; margin-top: -30em; display: block; margin-left: auto; margin-right: auto; height: 25em; border-radius: 0.6em; }
+.body .bodyContainer1 .textCard{position: absolute; background-color: white; padding: 2em; border-radius: 1em; border: solid rgb(0, 105, 204); border-width: 0.15em; top: -5em; left: 13em;}
+.body .bodyContainer1 .textCard h3{font-weight: 600;}
+.body .bodyContainer1 .textCard a{font-weight: 600; line-height: 3em; color: rgb(0, 94, 156);}
+
+.body .bodyContainer2{margin-top: 14em; width: 100%; text-align: center;}
+.body .bodyContainer2 .cardContainer{display: grid; grid-template-columns: repeat(3,1fr); width: 50%; margin-left: auto; margin-right: auto; justify-content: center;}
+.body .bodyContainer2 .card{margin-right:1em; margin-bottom: 2em; margin-top: 1.5em;}
+.body .bodyContainer2 a{display: block; text-align: start; color: rgb(0, 70, 136); font-weight: 500;}
+
+.body .bodyContainer3{height: 50em; background-image: linear-gradient(to bottom,rgb(255, 230, 220),white); text-align: center; position: relative;}
+.body .bodyContainer3 h1{font-weight: 500; font-size: 3.9em; padding-top: 1.6em; line-height: 1.2em; }
+.body .bodyContainer3 p{font-weight: 500; padding-top: 1.2em;}
+.body .bodyContainer3 .cardContainer{display: grid; grid-template-columns: repeat(2,1fr); padding-top: 6em;}
+.body .bodyContainer3 .cardContainer img{width: 50%; border-radius: 0.5em;}
+.body .bodyContainer3 .cardContainer h3{font-weight: 600; padding-top: 1em;}
+.body .bodyContainer3 .cardContainer h6{font-weight: 600; padding-top: 1em; padding-bottom: 1rem; font-size: 0.9rem;}
+.body .bodyContainer3 .cardContainer a{font-weight: 600; font-size: 0.8rem;}
+.body .bodyContainer3 .cardContainer .img1{width: 98%;}
+.body .bodyContainer3 .cardContainer .img2{width: 98%;}
+.body .bodyContainer3 .cardContainer{width: 90%; margin-right: auto; margin-left: auto;}
+.body .bodyContainer3 .card2{margin-top: 4.5em;}
+
+.body .bodyContainer4{margin-top: 30em; text-align: center; width: 70%; margin-left: auto; margin-right: auto;}
+.body .bodyContainer4 h1{font-size: 3.5rem; font-weight: 600; line-height: 1.2em;}
+.body .bodyContainer4 p{font-size: 0.9rem; margin-bottom: 2em; margin-top: 1.5em;}
+.body .bodyContainer4 a{color: white; background-color: rgb(0, 28, 119); padding: 0.6em 2.5em; border-radius: 0.3em; font-weight: 500; transition: 300ms ease-in-out;}
+.body .bodyContainer4 a:hover{color: rgb(0, 0, 143); background-color: white;}
+.body .bodyContainer4 .cardContainer{display: grid; grid-template-columns: repeat(2,1fr); gap: 1em; margin-top: 2.5em;}
+.body .bodyContainer4 .card{display: flex; text-align: left; background-image: linear-gradient(to bottom,rgb(210, 237, 255),rgb(246, 252, 255));}
+.body .bodyContainer4 .card img{height: 2em; margin: 0 1.6em; margin-top: 7em;}
+.body .bodyContainer4 .card a{background-color: rgba(255, 255, 255, 0); color: rgb(0, 25, 109); font-weight: 600; margin: 0; padding: 0;} 
+.body .bodyContainer4 .card .cardText{margin: 2em; margin-left: 0;}
+
+.body .bodyContainer5{display: flex; background-image: linear-gradient(to bottom,rgb(255, 227, 214),white); margin-top: 3em; height: 35em;}
+.body .bodyContainer5 h1{font-weight: 600; font-size: 2.5rem; line-height: 3.5rem;}
+.body .bodyContainer5 .text{margin: 3em; margin-top: 8.5em;}
+.body .bodyContainer5 .text p{margin-top: 1.4em;}
+.body .bodyContainer5 img{margin:1em; margin-top: 4em; border-radius: 0.4em;}
+.body .bodyContainer5 .img2{margin-right: 4em;}
+
+.body .bodyContainer6{background-color: rgb(34, 34, 34); color: white; font-size: 0.8rem; padding: 2em; text-align: center; margin-top: 2em;}
+
+footer{background-color: rgba(241, 249, 255, 0.795); margin-top: 3em;}
+footer table{width: 90%; margin-left: auto; margin-right: auto; text-align: left; padding: 2em;}
+footer table td{padding: 0.6em; padding-left: 0; font-size: 0.8rem; color: rgba(0, 0, 0, 0.568);}
+footer table th{padding-bottom: 1em; color: rgba(0, 0, 0, 0.863);}
+
+
+.heroSection,.bodyContainer1,.bodyContainer2,.bodyContainer3,.bodyContainer4,.bodyContainer5,.bodyContainer6{opacity: 0; filter: blur(5px); transform: translateY(10%); transition: all 800ms;}
+.heroSection.on,.bodyContainer1.on,.bodyContainer2.on,.bodyContainer3.on,.bodyContainer4.on,.bodyContainer5.on,.bodyContainer6.on{opacity: 1; filter: blur(0); transform: translateY(0);}
+
